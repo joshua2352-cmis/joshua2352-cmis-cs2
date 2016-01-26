@@ -1,0 +1,8 @@
+git add 
+git commit -m "message"
+git push 
+gedit "file you want "
+git clone --config="http.proxy=http://joshua2352:cyr0killler@192.168.2.1:8080" https://github.com/joshua2352-cmis/josh2352-cmis-cs2.git    Clones repository 
+
+cd=go to 
+ls= shows files 
