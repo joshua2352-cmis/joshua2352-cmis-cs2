@@ -1,4 +1,7 @@
-def frisk_do(action):
-	print "frisk is"+action+"ing"
-	frisk_do("fall")
-	frisk_do("land")
+def add(a, b):
+	return a = b
+    print a = 7
+    print b = 9
+      
+
+
