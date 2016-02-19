@@ -1,3 +1,5 @@
+import math
+
 def add(a, b):
     return a + b
 def sub (a, b):
@@ -24,6 +26,28 @@ def hours_from_seconds(seconds):
 
 hours = hours_from_seconds(86400)    
 print hours
+
+def add(a,b):
+	return a + b
+
+add(3,4)
+
+def sub(a,b):
+	return a - b
+
+sub(5,3)
+
+def mul(x,y):
+	return x * y
+
+mul(4,4)
+
+def div(g,h):
+	return g / h
+
+div(2,3.0)
+def SecondssToHours(x,y,z):
+	return x / y / z
 
     
 
