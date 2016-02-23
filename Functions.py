@@ -27,27 +27,32 @@ def hours_from_seconds(seconds):
 hours = hours_from_seconds(86400)    
 print hours
 
-def add(a,b):
-	return a + b
 
-add(3,4)
+def Volumeofsphere(r):
+	pi = (math.pi)
+	pi = (math.pi)
+	Vol1 = (((4/3.0)*pi)*a**3)
+	Vol2 = (((4/3.0)*pi)*b**3)
+    return Vol1 + Vol2/2
 
-def sub(a,b):
-	return a - b
+averagevolume(5,10)
 
-sub(5,3)
+def areaoftriangle(a,b,c):
+	p = a+b+c/2.0
+	return math.sqrt(p*(p-a)*(p-b)*(p-c))
 
-def mul(x,y):
-	return x * y
+areaoftriangle(1,2,2.5)
 
-mul(4,4)
+def right_align(a):
+	return (((4/3.0)*pi)*r**3)
 
-def div(g,h):
-	return g / h
+Volumeofsphere=(5)
 
-div(2,3.0)
-def SecondssToHours(x,y,z):
-	return x / y / z
+
+def averagevolume(a,b):
+	return (a.rjust(80))
+
+
 
     
 
