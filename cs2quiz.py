@@ -16,7 +16,7 @@
 #	1: float  (float)(2.0) (3.0)
 #	2: strings  (str)  ("hello") ("23")
 #	3: integers (int)   (3) (5)
-#	4:  boolean (bool) Frue , False (==)(!<)
+#	4:  boolean (bool) True , False (==)(!<)
 #	5: list [,]:['a',1,1.3]
 #
 #5 2pts) What is the difference between a "function definition" and a 
@@ -47,28 +47,30 @@
 
 
 import math
+#imports math 
 
 C1 = raw_input("Area of C1: ")
 C2 = raw_input("Area of C2: ")
 C3 = raw_input("Area of C3: ")
-
+#give promps to the user
 def circle_diameter(area):
     return math.sqrt(((area) / math.pi)) + math.sqrt(((area) / math.pi))
-
+#this tells the system what to do 
 print ""
 
 CC1 = math.sqrt(((float(C1)) / math.pi)) + math.sqrt(((float(C1)) / math.pi))
 CC2 = math.sqrt(((float(C2)) / math.pi)) + math.sqrt(((float(C2)) / math.pi))
 CC3 = math.sqrt(((float(C3)) / math.pi)) + math.sqrt(((float(C3)) / math.pi))
-
+#this makes the equation and sets up the steps for it 
 Total = float(CC1) + float(CC2) + float(CC3)
 C3 = float(CC3)
 C2 = float(CC2)
 C1 = float(CC1)
-
+#this changes the values in the answer to float values
 print "Circle  Diameter"
 print "c1      " + str(C1)
 print "c2      " + str(C2)
 print "c3      " + str(C3)
 print "Totals  " + str(Total)
+#this makes shows you the answer to the equation
 
