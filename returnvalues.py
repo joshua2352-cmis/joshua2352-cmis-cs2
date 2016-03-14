@@ -35,7 +35,7 @@ def getAttackValue():
     if number > 99 or number < 0:
  # uses boolean to compare the user input to 0 and 99 
         number = random.randint(0, 99)
-#sets the range for the random generator 
+#sets the range for the random generator ff
     attackValue = float(number)/100
 #sets the variable attack value to a float value out of 100 
     return attackValue   
