@@ -16,8 +16,8 @@ def main():
     stop = raw_input("put the number you want it to stop at:")
 
 main()
-:) = :)
-print :) * 10000
+
+
 
 
 
