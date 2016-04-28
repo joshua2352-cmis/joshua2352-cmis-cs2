@@ -1,18 +1,29 @@
 import math 
 
-def main():
+nothing = raw_input("next number:") 
 
-    adder()
-    return adder
+def adder(total,nothing):
 
-def adder():
 
     nothing = raw_input("next number:") 
-     if nothing == ():
+    if nothing == "":
 
         print "Goodbye"
 
+    else: total += float(nothing) 
+        
     adder()
+
+def main():
+
+    total = 0
+    
+
+    adder(total) 
+
+
+main()
+
 
 
 
