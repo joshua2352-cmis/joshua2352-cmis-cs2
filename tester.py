@@ -2,10 +2,6 @@ import math
 import random 
 #imports the needed operators 
 
-def loot():
-	print "you stumble across a chest what you roll is how much loot you get "
-roller = random.randint (1.0,6.0)
-
 def stage2():
 	BOSS=raw_input("a large room looms ahead with a Giant lock and you have the key you have maxed out all your stats and know what lies ahead do you enter or knock enter/knock")
 #gets user input 
@@ -31,7 +27,7 @@ def ROLL1():
 		print 'you have rolled a {}'.format(roll) + ' you slay the knight in one blow after rolling away from his attack' 
 
 	elif roll < 4: 
-		print' you have rolled a {}' .format(roll)+ ' you try to dodge but end up getting hit YOU DIED'
+		print' you have rolled a' .format(roll)+ ' you try to dodge but end up getting hit YOU DIED'
 def ROLL2():
 	roll2 = random.randint(1,6)
 
@@ -73,6 +69,5 @@ def main():
 	Spider()
 	
 main()
-
 
 
